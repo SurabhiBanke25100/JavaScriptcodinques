@@ -1,4 +1,4 @@
-//Write a function to check if an array is sorted in ascending order.
+//Write a function to  sorted array in ascending order.
 function ascsort(inputArray) {
 
     var temp;
@@ -11,18 +11,14 @@ function ascsort(inputArray) {
                 inputArray[j] = temp;
             }
         }
-        console.log(inputArray[i]);
+
     }
-    return 1;
+    return inputArray;
 
 }
 
-
-
-
-
-
 let userInput = prompt("enter array =");
-let inputArray = userInput.split(" ");
+let inputArray = userInput.split(" ").map(Number); //use the map():-> while spliting the input string to convert the elements to numbers for comparison
 
-function ascsort(inputArray);
+let sortedArray = ascsort(inputArray);
+console.log("Sorted array in ascending order:", sortedArray);
