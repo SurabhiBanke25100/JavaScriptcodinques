@@ -1,0 +1,16 @@
+//program to find reverse of an array 
+
+function reverse(inputArray){
+    
+    for(var i=inputArray.length-1;i>=0;i--){
+        console.log(inputArray[i]);
+    }
+return 1;
+}
+
+let userInput = prompt("Enter elements of the array separated by spaces:");      //to take user input as string
+
+let inputArray = userInput.split(" ");                   //Convert the input string into an array
+
+
+reverse(inputArray);
