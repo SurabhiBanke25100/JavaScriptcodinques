@@ -23,6 +23,7 @@ const str = "Mozilla";
 //console.log(str.substring(2));
 // Expected output: "zilla"
 
+//note: difference between slice and substring is that slice can accept negative index but substring cannot.
 //------------slice-----------
 //console.log(str.slice(1, 3)); //output:"oz"
 
