@@ -14,6 +14,9 @@ const array1 = [1,22,"htg",[1,2,3],true];
 // array1.pop();
 // console.log(array1);
 
+//---------slice and splice methods-------
+//----------slice does not modify the original array, but splice does.
+
 // const slcmethod = array1.slice(1,3);
 // console.log("A",array1);
 // console.log(slcmethod);
@@ -21,6 +24,8 @@ const array1 = [1,22,"htg",[1,2,3],true];
 // const spcmethod = array1.splice(1,3);
 // console.log("B",array1);
 // console.log(spcmethod);
+
+//---------shift and unshift methods-----------------
 
 const array2 = [23,7,"nobs",true];
 // array2.unshift(45);   //unshift adds element at the beginning of the array
@@ -30,7 +35,9 @@ const array2 = [23,7,"nobs",true];
 // console.log(array2);    //shift removes the first element of the array
 
 // array2.shift();
-// console.log(array2);    //shift removes the first element of the array  
+// console.log(array2);    
+
+//--------"join" combines all elements of an array into a string------------------
 
 //  const array3 = array2.join();
 // // console.log(array3);
